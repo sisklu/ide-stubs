@@ -100,6 +100,7 @@ use Phalcon\Html\Link\Link;
  */
 class TagFactory extends AbstractFactory
 {
+
     /**
      * @var EscaperInterface
      */

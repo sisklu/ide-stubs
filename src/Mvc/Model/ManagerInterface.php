@@ -21,6 +21,8 @@ use Phalcon\Mvc\Model\Query\StatusInterface;
  */
 interface ManagerInterface
 {
+
+
     /**
      * Binds a behavior to a model
      *

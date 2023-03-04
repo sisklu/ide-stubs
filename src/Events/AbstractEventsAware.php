@@ -16,6 +16,7 @@ use Phalcon\Events\ManagerInterface;
  */
 abstract class AbstractEventsAware
 {
+
     /**
      * @var ManagerInterface|null
      */

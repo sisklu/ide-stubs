@@ -19,10 +19,15 @@ use Phalcon\Filter\FilterFactory;
  */
 class FactoryDefault extends \Phalcon\Di\Di
 {
+
+
     /**
      * Phalcon\Di\FactoryDefault constructor
+     *
+     * @param AutowireInterface $autowire
+     * @param bool $addBinds
      */
-    public function __construct()
+    public function __construct(AutowireInterface $autowire = null, bool $addBinds = false)
     {
     }
 }

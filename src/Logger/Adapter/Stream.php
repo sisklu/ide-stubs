@@ -34,6 +34,7 @@ use Phalcon\Logger\Item;
  */
 class Stream extends \Phalcon\Logger\Adapter\AbstractAdapter
 {
+
     /**
      * The file open mode. Defaults to 'ab'
      *

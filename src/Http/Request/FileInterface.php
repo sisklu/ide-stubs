@@ -14,6 +14,8 @@ namespace Phalcon\Http\Request;
  */
 interface FileInterface
 {
+
+
     /**
      * Returns the error if any
      *

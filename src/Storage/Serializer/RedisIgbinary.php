@@ -14,4 +14,6 @@ namespace Phalcon\Storage\Serializer;
  */
 class RedisIgbinary extends \Phalcon\Storage\Serializer\None
 {
+
+
 }

@@ -22,6 +22,8 @@ use Phalcon\Image\Exception;
  */
 class Gd extends \Phalcon\Image\Adapter\AbstractAdapter
 {
+
+
     /**
      * @param string   $file
      * @param int|null $width

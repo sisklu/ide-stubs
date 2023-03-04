@@ -51,4 +51,6 @@ class Enum
     const FETCH_UNIQUE = 196608;
 
     const FETCH_DEFAULT = 0;
+
+
 }

@@ -37,6 +37,7 @@ use Phalcon\Cli\Router\RouteInterface;
  */
 class Router extends AbstractInjectionAware
 {
+
     /**
      * @var string
      */

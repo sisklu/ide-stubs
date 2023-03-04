@@ -31,6 +31,7 @@ use Phalcon\Support\Exception as SupportException;
  */
 abstract class AbstractAdapter implements \Phalcon\Storage\Adapter\AdapterInterface
 {
+
     /**
      * @var mixed
      */

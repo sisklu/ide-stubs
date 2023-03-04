@@ -19,6 +19,8 @@ namespace Phalcon\Storage\Serializer;
  */
 class None extends \Phalcon\Storage\Serializer\AbstractSerializer
 {
+
+
     /**
      * Serializes data
      *

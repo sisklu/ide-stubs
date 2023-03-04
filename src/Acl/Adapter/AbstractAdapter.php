@@ -18,6 +18,7 @@ use Phalcon\Events\EventsAwareInterface;
  */
 abstract class AbstractAdapter extends AbstractEventsAware implements \Phalcon\Acl\Adapter\AdapterInterface, \Phalcon\Events\EventsAwareInterface
 {
+
     /**
      * Access Granted
      *

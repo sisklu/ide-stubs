@@ -22,6 +22,7 @@ use SessionHandlerInterface;
  */
 abstract class AbstractAdapter implements \SessionHandlerInterface
 {
+
     /**
      * @var AdapterInterface
      */

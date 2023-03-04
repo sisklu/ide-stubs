@@ -24,6 +24,7 @@ namespace Phalcon\Events;
  */
 class Event implements \Phalcon\Events\EventInterface
 {
+
     /**
      * Is event cancelable?
      *

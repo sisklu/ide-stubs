@@ -19,6 +19,7 @@ use Phalcon\Logger\LoggerInterface;
  */
 class MemoryLogger implements \Phalcon\Logger\LoggerInterface
 {
+
     /**
      * @var array
      */

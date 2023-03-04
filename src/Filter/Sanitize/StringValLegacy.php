@@ -17,6 +17,8 @@ namespace Phalcon\Filter\Sanitize;
  */
 class StringValLegacy
 {
+
+
     /**
      * @param string $input The text to sanitize
      *

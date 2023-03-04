@@ -18,6 +18,7 @@ use Phalcon\Events\AbstractEventsAware;
  */
 class Loader extends AbstractEventsAware
 {
+
     /**
      * @var string|null
      */

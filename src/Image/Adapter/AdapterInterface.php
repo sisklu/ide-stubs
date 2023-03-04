@@ -16,6 +16,8 @@ use Phalcon\Image\Enum;
  */
 interface AdapterInterface
 {
+
+
     /**
      * Add a background to an image
      *

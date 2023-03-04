@@ -14,6 +14,8 @@ namespace Phalcon\Html\Link\Interfaces;
  */
 interface LinkInterface
 {
+
+
     /**
      * Returns a list of attributes that describe the target URI.
      *

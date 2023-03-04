@@ -14,6 +14,8 @@ namespace Phalcon\Filter\Sanitize;
  */
 class StringVal
 {
+
+
     /**
      * @param string $input The text to sanitize
      * @param int    $flags The flags for `htmlspecialchars()`

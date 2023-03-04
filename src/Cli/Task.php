@@ -9,6 +9,8 @@
  */
 namespace Phalcon\Cli;
 
+use Phalcon\Di\AutowireInterface;
+use Phalcon\Di\DiInterface;
 use Phalcon\Di\Injectable;
 use Phalcon\Events\EventsAwareInterface;
 use Phalcon\Events\ManagerInterface;
@@ -39,6 +41,7 @@ use Phalcon\Events\ManagerInterface;
  */
 class Task extends Injectable implements \Phalcon\Cli\TaskInterface, \Phalcon\Events\EventsAwareInterface
 {
+
     /**
      * @var ManagerInterface
      */

@@ -25,6 +25,7 @@ use Phalcon\Translate\InterpolatorFactory;
  */
 class NativeArray extends \Phalcon\Translate\Adapter\AbstractAdapter implements \ArrayAccess
 {
+
     /**
      * @var array
      */

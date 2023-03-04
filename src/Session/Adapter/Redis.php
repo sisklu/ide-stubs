@@ -16,6 +16,8 @@ use Phalcon\Storage\AdapterFactory;
  */
 class Redis extends \Phalcon\Session\Adapter\AbstractAdapter
 {
+
+
     /**
      * Constructor
      *

@@ -9,6 +9,8 @@
  */
 namespace Phalcon\Mvc;
 
+use Phalcon\Di\AutowireInterface;
+use Phalcon\Di\DiInterface;
 use Phalcon\Di\Injectable;
 
 /**
@@ -53,6 +55,8 @@ use Phalcon\Di\Injectable;
  */
 abstract class Controller extends Injectable implements \Phalcon\Mvc\ControllerInterface
 {
+
+
     /**
      * Phalcon\Mvc\Controller constructor
      */

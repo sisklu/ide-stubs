@@ -14,4 +14,6 @@ namespace Phalcon\Storage\Serializer;
  */
 class RedisPhp extends \Phalcon\Storage\Serializer\None
 {
+
+
 }

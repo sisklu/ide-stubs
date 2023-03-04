@@ -21,6 +21,10 @@ use Phalcon\Events\ManagerInterface;
 use Phalcon\Di\InitializationAwareInterface;
 use Phalcon\Di\InjectionAwareInterface;
 use Phalcon\Di\ServiceProviderInterface;
+use Phalcon\Di\BindDefinitionInterface;
+use Phalcon\Di\BindDefinition;
+use Phalcon\Di\Exception\BindException;
+use Phalcon\Di\AutowireInterface;
 
 /**
  * Phalcon\Di\Di is a component that implements Dependency Injection/Service
@@ -62,6 +66,7 @@ use Phalcon\Di\ServiceProviderInterface;
  */
 class Di implements \Phalcon\Di\DiInterface
 {
+
     /**
      * List of registered services
      *
@@ -88,12 +93,26 @@ class Di implements \Phalcon\Di\DiInterface
      *
      * @var DiInterface|null
      */
-    protected static $defaultDi;
+    static protected $defaultDi;
+
+    /**
+     * List of registered services
+     *
+     * @var BindDefinitionInterface[]
+     */
+    protected $binds = [];
+
+    /**
+     * @var AutowireInterface|null
+     */
+    protected $autowire;
 
     /**
      * Phalcon\Di\Di constructor
+     *
+     * @param \Phalcon\Di\AutowireInterface $autowire
      */
-    public function __construct()
+    public function __construct(\Phalcon\Di\AutowireInterface $autowire = null)
     {
     }
 
@@ -127,9 +146,10 @@ class Di implements \Phalcon\Di\DiInterface
      *
      * @param string $name
      * @param mixed $parameters
+     * @param array $autowireTypes
      * @return mixed
      */
-    public function get(string $name, $parameters = null)
+    public function get(string $name, $parameters = null, array $autowireTypes = [])
     {
     }
 
@@ -438,6 +458,41 @@ class Di implements \Phalcon\Di\DiInterface
      * @return ServiceInterface
      */
     public function setShared(string $name, $definition): ServiceInterface
+    {
+    }
+
+    /**
+     * @param string $className
+     * @param string $definition
+     * @param bool $isShared
+     * @return DiInterface
+     */
+    public function bind(string $className, string $definition, bool $isShared = false): DiInterface
+    {
+    }
+
+    /**
+     * @param string $className
+     * @param string $definition
+     * @return bool
+     */
+    public function hasBind(string $className, string $definition = null): bool
+    {
+    }
+
+    /**
+     * @param string $className
+     * @param string $definition
+     * @return BindDefinitionInterface|null
+     */
+    public function getBind(string $className, string $definition = null): ?BindDefinitionInterface
+    {
+    }
+
+    /**
+     * @return AutowireInterface
+     */
+    public function getAutowire(): AutowireInterface
     {
     }
 }

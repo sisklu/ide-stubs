@@ -31,6 +31,7 @@ use Iterator;
  */
 class Collection implements \Iterator, \Countable
 {
+
     /**
      * @var array
      */

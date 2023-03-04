@@ -16,6 +16,7 @@ use Phalcon\Db\DialectInterface;
 use Phalcon\Db\Enum;
 use Phalcon\Db\RawValue;
 use Phalcon\Di\AbstractInjectionAware;
+use Phalcon\Di\AutowireInterface;
 use Phalcon\Di\Di;
 use Phalcon\Di\DiInterface;
 use Phalcon\Events\ManagerInterface as EventsManagerInterface;
@@ -1642,7 +1643,7 @@ abstract class Model extends AbstractInjectionAware implements \Phalcon\Mvc\Enti
      * @param string $method
      * @param array $arguments
      */
-    final protected static function invokeFinder(string $method, array $arguments)
+    protected final static function invokeFinder(string $method, array $arguments)
     {
     }
 

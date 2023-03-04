@@ -37,6 +37,7 @@ use Traversable;
  */
 class Collection implements \ArrayAccess, \Phalcon\Support\Collection\CollectionInterface, \Countable, \IteratorAggregate, \JsonSerializable, \Serializable
 {
+
     /**
      * @var array
      */

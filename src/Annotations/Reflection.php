@@ -29,6 +29,7 @@ namespace Phalcon\Annotations;
  */
 class Reflection
 {
+
     /**
      * @var Collection|null
      */

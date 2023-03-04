@@ -19,6 +19,7 @@ use Phalcon\Support\Collection;
  */
 abstract class AbstractLink
 {
+
     /**
      * @var Collection
      */

@@ -20,6 +20,8 @@ use Phalcon\Mvc\ModelInterface;
  */
 interface ResultsetInterface
 {
+
+
     /**
      * Deletes every record in the resultset
      *

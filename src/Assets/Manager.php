@@ -24,6 +24,7 @@ use Phalcon\Html\TagFactory;
  */
 class Manager extends AbstractInjectionAware
 {
+
     /**
      * @var array
      */

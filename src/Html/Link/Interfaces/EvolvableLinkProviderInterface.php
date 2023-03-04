@@ -14,6 +14,8 @@ namespace Phalcon\Html\Link\Interfaces;
  */
 interface EvolvableLinkProviderInterface extends \Phalcon\Html\Link\Interfaces\LinkProviderInterface
 {
+
+
     /**
      * Returns an instance with the specified link included.
      *

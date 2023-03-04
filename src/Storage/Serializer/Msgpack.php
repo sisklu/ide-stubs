@@ -19,6 +19,8 @@ namespace Phalcon\Storage\Serializer;
  */
 class Msgpack extends \Phalcon\Storage\Serializer\Igbinary
 {
+
+
     /**
      * Serializes data
      *

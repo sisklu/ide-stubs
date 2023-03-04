@@ -19,6 +19,7 @@ use Phalcon\Events\ManagerInterface;
  */
 abstract class AbstractApplication extends Injectable implements \Phalcon\Events\EventsAwareInterface
 {
+
     /**
      * @var DiInterface|null
      */

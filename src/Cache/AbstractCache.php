@@ -19,6 +19,7 @@ use Traversable;
  */
 abstract class AbstractCache implements \Phalcon\Cache\CacheInterface
 {
+
     /**
      * The adapter
      *

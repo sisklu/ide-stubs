@@ -21,6 +21,8 @@ use InvalidArgumentException;
  */
 class Base64 extends \Phalcon\Storage\Serializer\AbstractSerializer
 {
+
+
     /**
      * Serializes data
      *

@@ -22,6 +22,8 @@ use Phalcon\Factory\AbstractFactory;
  */
 class PaginatorFactory extends AbstractFactory
 {
+
+
     /**
      * AdapterFactory constructor.
      *

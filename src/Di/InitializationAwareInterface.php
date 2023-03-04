@@ -14,6 +14,8 @@ namespace Phalcon\Di;
  */
 interface InitializationAwareInterface
 {
+
+
     /**
      * @return void
      */

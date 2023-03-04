@@ -14,6 +14,8 @@ namespace Phalcon\Events;
  */
 interface ManagerInterface
 {
+
+
     /**
      * Attach a listener to the events manager
      *

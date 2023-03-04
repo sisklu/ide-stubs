@@ -27,6 +27,7 @@ use Phalcon\Di\Service\Builder;
  */
 class Service implements \Phalcon\Di\ServiceInterface
 {
+
     /**
      * @var mixed
      */
@@ -46,6 +47,11 @@ class Service implements \Phalcon\Di\ServiceInterface
      * @var mixed|null
      */
     protected $sharedInstance = null;
+
+    /**
+     * @var array
+     */
+    protected $autowireTypes = [];
 
     /**
      * Phalcon\Di\Service
@@ -143,6 +149,14 @@ class Service implements \Phalcon\Di\ServiceInterface
      * @return void
      */
     public function setSharedInstance($sharedInstance): void
+    {
+    }
+
+    /**
+     * @param array $autowireTypes
+     * @return ServiceInterface
+     */
+    public function setAutowireTypes(array $autowireTypes): ServiceInterface
     {
     }
 }

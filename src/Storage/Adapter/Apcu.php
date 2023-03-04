@@ -9,7 +9,7 @@
  */
 namespace Phalcon\Storage\Adapter;
 
-use APCuIterator;
+use APCUIterator;
 use DateInterval;
 use Exception;
 use Phalcon\Storage\SerializerFactory;
@@ -22,6 +22,7 @@ use Phalcon\Support\Exception as SupportException;
  */
 class Apcu extends \Phalcon\Storage\Adapter\AbstractAdapter
 {
+
     /**
      * @var string
      */
@@ -195,7 +196,7 @@ class Apcu extends \Phalcon\Storage\Adapter\AbstractAdapter
 
     /**
      * @param string $pattern
-     * @return bool|APCuIterator
+     * @return bool|APCUIterator
      */
     protected function phpApcuIterator(string $pattern)
     {

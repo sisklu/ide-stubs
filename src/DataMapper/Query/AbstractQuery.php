@@ -16,6 +16,7 @@ use Phalcon\DataMapper\Pdo\Connection;
  */
 abstract class AbstractQuery
 {
+
     /**
      * @var Bind
      */

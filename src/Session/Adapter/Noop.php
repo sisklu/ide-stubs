@@ -29,6 +29,7 @@ use SessionHandlerInterface;
  */
 class Noop implements \SessionHandlerInterface
 {
+
     /**
      * The connection of some adapters
      *

@@ -18,6 +18,8 @@ use Phalcon\Support\Collection\CollectionInterface;
  */
 interface ConfigInterface extends \Phalcon\Support\Collection\CollectionInterface
 {
+
+
     /**
      * @return string
      */

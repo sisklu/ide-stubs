@@ -14,6 +14,8 @@ namespace Phalcon\Encryption\Security\JWT\Signer;
  */
 interface SignerInterface
 {
+
+
     /**
      * Return the value that is used for the "alg" header
      *

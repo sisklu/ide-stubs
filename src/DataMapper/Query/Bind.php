@@ -14,6 +14,7 @@ namespace Phalcon\DataMapper\Query;
  */
 class Bind
 {
+
     /**
      * @var int
      */

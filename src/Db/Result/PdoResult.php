@@ -30,6 +30,7 @@ use Phalcon\Db\Adapter\AdapterInterface;
  */
 class PdoResult implements \Phalcon\Db\ResultInterface
 {
+
     /**
      * @var array
      */

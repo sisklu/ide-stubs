@@ -14,4 +14,6 @@ namespace Phalcon\Storage\Serializer;
  */
 class RedisMsgpack extends \Phalcon\Storage\Serializer\None
 {
+
+
 }

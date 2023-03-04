@@ -22,6 +22,7 @@ use Phalcon\Encryption\Security\JWT\Validator;
  */
 class Token
 {
+
     /**
      * @var Item
      */

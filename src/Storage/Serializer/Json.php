@@ -22,6 +22,8 @@ use JsonSerializable;
  */
 class Json extends \Phalcon\Storage\Serializer\AbstractSerializer
 {
+
+
     /**
      * Serializes data
      *

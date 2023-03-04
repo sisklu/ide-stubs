@@ -22,6 +22,8 @@ use Phalcon\Image\Adapter\AdapterInterface;
  */
 class ImageFactory extends AbstractFactory
 {
+
+
     /**
      * Constructor
      *

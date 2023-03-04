@@ -14,6 +14,8 @@ namespace Phalcon\Html\Link\Interfaces;
  */
 interface LinkProviderInterface
 {
+
+
     /**
      * Returns an array of LinkInterface objects.
      *

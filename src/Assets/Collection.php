@@ -18,6 +18,7 @@ use IteratorAggregate;
  */
 class Collection implements \Countable, \IteratorAggregate
 {
+
     /**
      * @var array
      */
